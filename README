@@ -1,4 +1,6 @@
-This is Nautilus, the file manager for the GNOME desktop.
+This is Win-Nautilus, a Windows port of the official file manager for the GNOME desktop.
+
+This project's aim is to bring a vanilla Nautilus to Windows with a Windows interface and GUI widgets!
 
 Installation
 ============
@@ -28,4 +30,6 @@ Bugs should be reported to the GNOME bug tracking system
 
 Please read the following page on how to prepare a useful bug report:
 http://bugzilla.gnome.org/bug-HOWTO.html
+
+
 
