@@ -1,22 +1,123 @@
 //This ReadMe is a work in progress!
 
-This is Win-Nautilus, a port of the official navigational file manager from the GNOME desktop to Microsoft Windows XP/Vista/7/8.
+This is Win-Nautilus, a port of the file manager from the GNOME desktop to Microsoft Windows XP/Vista/7/8.
 
-This project's aim is to port the vanilla Nautilus file manager to Microsoft Windows,complete with all the features GNOME users
-love but with the interface design, GUI widgets and iconography that the Windows platform provides 
-(we promise there will be no Ribbon UI by default!).
+Project Aims/Goals
+==================
 
-Once this has been achieved we hope to fork the project again and make some modifications to the Win-Nautilus project and add
-new features in (if we can get that far! XD).
+This project's primary aim is to port the vanilla Nautilus file manager to Microsoft Windows with native compatibilty
+and the means to allow the user to disregard Windows Explorer (or any other file manager) completely.
+
+Other goals include:
+
+1. All the functionality of the original Nautilus
+
+Win-Nautilus aims to all the functionality that has made Nautilus popular as a file manager over the years
+and remain consistant with any of GNOME's Nautilus updates.
+
+2. Native Windows interface
+
+Win-Nautilus aims to keep the original Nautilus interface, but with the interface design, GUI widgets
+and iconography that the Windows platform providesto make Win-Nautilus look and feel like a native
+Windows application.
+
+3. Easily portable
+
+Win-Nautilus aims not to restrict itself too much to any particular application framework or operating system.
+The goal is that Win-Nautilus can easily be ported to almost any other platform (such as Mac OS X) with ease.
+
+Future Goals/Development Roadmap
+================================
+
+Once these aims/goals has been achieved we hope to fork the project again and make some modifications to Win-Nautilus
+and add these new features in (if we can get that far! XD).
+
+Definite Features:
+
+1. Free and open-source (under the GNU Lesser Public License, donations are always welcome and appreciated!)
+
+2. Native Windows desktop application with the Windows 8 UI and icons (but uses menu bars instead of Ribbon UI by default)
+
+3. Full NTFS file system support as well Linux EXT2/EXT3/EXT4 (planned support for the new ReFS and other file systems)
+
+4. New and intuitive features such as cloud support for Google Drive, Ubuntu One and Dropbox (as well as keeping the majority of the old features that GNOME users love!)
+
+5. A lot of room for user customisation via themes, layout changes...
+
+6. Safely remove your device (memory stick/hard drive) in 1 click (thanks to the "Devices" section of the left pane.)
+
+Design Ideas:
+
+Devices section of the left sidebar has 2 sections - Local and Cloud
+
+
+Distribution:
+
+Website Download via Ubuntu One - Mirror download link for all implementations except iNautilus.
+
+Windows 8 Marketplace - Download for Nautilus and Nautilus Metro Edition using "Try" as the free version and "Buy" as a donate version.
+
+Website Download via PortableApps.com - Mirror for Nautilus Portable.
+
+Google Play/SlideME - Mirrors for NautilusDroid.apk
+
+BigBoss/ModMyi - Repository used by Cydia for iNautilus.
+
+
+Possible Reimplementations:
+
+Nautilus Portable - Nautilus which has been portablised and available as a portable application on USB/Hard Drive.
+
+Nautilus Metro Edition - Nautilus as a Metro application with Metro UI for Windows 8, Windows 8 RT and WP7 (proof of concept, mostly).
+
+iNautilus/NautilusDroid - Mobile implementations of Nautilus for jailbroken iOS and Android. (Possibly won't do)
+
+
+Useful Links:
+
+http://en.wikipedia.org/wiki/File_manager
+
+Information on file managers.
+
+
+https://live.gnome.org/Nautilus 
+
+Official website for Nautilus alongside developer updates, downloads, screenshots and developer contact details.
+
+
+http://osdir.com/ml/nautilus-list/2011-01/msg00021.html
+
+E-mail to a Nautilus developer by a dude who want to port it a couple of years ago.
+
+
+http://www.computerworld.com/s/article/9227318/Microsoft_dumps_Aero_UI_in_Windows_8_Metro_izes_desktop
+
+News article which shows the new minimalist Windows 8 UI.
+
+
+https://developers.google.com/drive/branding
+
+Google Developers' site for Google Drive
+
+
+https://www.dropbox.com/developers/reference/branding
+
+Dropbox Developers' site for Dropbox
+
+
+In Closing
+==========
 
 So if you hate the new Windows 8, Windows Explorer (or just Windows Explorer in general) this is the project for you and I hope
 to see some contributers other than me and my friend in the near future.
 
-Inferno986return
+-Inferno986return-
+
 
 
 //Ignore text below this line!
 -------------------------------------------------------------------------------------------------------------------------------
+This is Nautilus, the file manager for the GNOME desktop.
 
 Installation
 ============
@@ -46,6 +147,33 @@ Bugs should be reported to the GNOME bug tracking system
 
 Please read the following page on how to prepare a useful bug report:
 http://bugzilla.gnome.org/bug-HOWTO.html
+Installation
+============
 
+See the 'INSTALL' file for installation instructions.  You will need a
+complete and up-to-date GNOME development environment to build nautilus.
+You can also find some building and installation tips at
+http://live.gnome.org/Nautilus/Development/Nautilus
+
+Hacking on Nautilus
+===================
+
+Please see the HACKING file for information about hacking on nautilus.
+
+Mailing List
+============
+
+The nautilus mailing list is nautilus-list@gnome.org.  Subscription
+information is available at
+http://mail.gnome.org/mailman/listinfo/nautilus-list
+
+How to report bugs
+==================
+
+Bugs should be reported to the GNOME bug tracking system
+(http://bugzilla.gnome.org), in the "nautilus" product.
+
+Please read the following page on how to prepare a useful bug report:
+http://bugzilla.gnome.org/bug-HOWTO.html
 
 
