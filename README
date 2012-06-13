@@ -84,10 +84,13 @@ https://live.gnome.org/Nautilus
 
 Official website for Nautilus alongside developer updates, downloads, screenshots and developer contact details.
 
+https://github.com/GNOME/nautilus
+
+Official Nautilus GitHub repository from which this project is forked from.
 
 http://osdir.com/ml/nautilus-list/2011-01/msg00021.html
 
-E-mail to a Nautilus developer by a dude who want to port it a couple of years ago.
+E-mail to a Nautilus developer by a dude who wanted to port it a couple of years ago.
 
 
 http://www.computerworld.com/s/article/9227318/Microsoft_dumps_Aero_UI_in_Windows_8_Metro_izes_desktop
@@ -97,12 +100,16 @@ News article which shows the new minimalist Windows 8 UI.
 
 https://developers.google.com/drive/branding
 
-Google Developers' site for Google Drive
+Google Developers' site for Google Drive.
 
 
 https://www.dropbox.com/developers/reference/branding
 
-Dropbox Developers' site for Dropbox
+Dropbox Developers' site for Dropbox.
+
+http://portableapps.com/development
+
+Official PortableApps.com development page for Nautilus Portable.
 
 
 In Closing
