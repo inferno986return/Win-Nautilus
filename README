@@ -1,12 +1,22 @@
 //This ReadMe is a work in progress!
 
-This is Win-Nautilus, a Windows port of the official file manager for the GNOME desktop.
+This is Win-Nautilus, a port of the official navigational file manager from the GNOME desktop to Microsoft Windows XP/Vista/7/8.
 
-This project's aim is to bring a vanilla Nautilus to Windows with a Windows interface and GUI widgets!
+This project's aim is to port the vanilla Nautilus file manager to Microsoft Windows,complete with all the features GNOME users
+love but with the interface design, GUI widgets and iconography that the Windows platform provides 
+(we promise there will be no Ribbon UI by default!).
+
+Once this has been achieved we hope to fork the project again and make some modifications to the Win-Nautilus project and add
+new features in (if we can get that far! XD).
+
+So if you hate the new Windows 8, Windows Explorer (or just Windows Explorer in general) this is the project for you and I hope
+to see some contributers other than me and my friend in the near future.
+
+Inferno986return
 
 
 //Ignore text below this line!
-------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------
 
 Installation
 ============
