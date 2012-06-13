@@ -18,13 +18,22 @@ and remain consistant with any of GNOME's Nautilus updates.
 2. Native Windows interface
 
 Win-Nautilus aims to keep the original Nautilus interface, but with the interface design, GUI widgets
-and iconography that the Windows platform providesto make Win-Nautilus look and feel like a native
-Windows application.
+and iconography that the Windows platform provides to make Win-Nautilus look and feel like a native Windows application.
 
-3. Easily portable
+3. Easy installation
+
+Win-Nautilus aims to use a standard .exe/.msi installation wizard allowing it to be installed with ease by anyone from
+novices to experts. There will also be tarballs, .zips and instructions to compile from source for those prefer that
+method of installation.
+
+4. Easily portable
 
 Win-Nautilus aims not to restrict itself too much to any particular application framework or operating system.
 The goal is that Win-Nautilus can easily be ported to almost any other platform (such as Mac OS X) with ease.
+
+5. No OS tie-in
+
+Win-Nautilus aims to be seperate from the operating system it uses and can be installed, unistalled and updated with ease.
 
 Future Goals/Development Roadmap
 ================================
@@ -45,6 +54,8 @@ Definite Features:
 5. A lot of room for user customisation via themes, layout changes...
 
 6. Safely remove your device (memory stick/hard drive) in 1 click (thanks to the "Devices" section of the left pane.)
+
+7 Auto-updater which can grab the latest version and automatically install it for the user.
 
 Design Ideas:
 
